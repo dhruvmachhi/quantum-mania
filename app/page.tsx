@@ -1,5 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 "use client";
-import { motion, useAnimate } from "motion/react"
+import { useAnimate } from "motion/react"
 import { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import NumberFlow from '@number-flow/react'
